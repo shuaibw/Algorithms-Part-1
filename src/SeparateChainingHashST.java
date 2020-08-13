@@ -11,7 +11,7 @@ public class SeparateChainingHashST<Key, Value> {
         }
     }
 
-    private int M = 97;
+    private final int M = 97;
     private Node[] st = new Node[M];
 
     private int hash(Key key) {
