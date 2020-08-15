@@ -1,0 +1,10 @@
+for (Point p : copy) {
+            Arrays.sort(ara, p.slopeOrder());
+            for(int i=1;i<n;i++){
+                double slope1=p.slopeTo(ara[i-1]);
+                double slope2=p.slopeTo(ara[i]);
+                if(slope1==slope2){
+
+                }
+            }
+        }
